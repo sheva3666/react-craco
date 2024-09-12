@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import useUser from '../../hooks/useUser';
 import { StaticRoutes } from '../../routes';
 
-const User: React.FC = () => {
+const UserPage: React.FC = () => {
   const { user, logout } = useUser();
   const navigate = useNavigate();
 
@@ -26,4 +26,4 @@ const User: React.FC = () => {
   );
 };
 
-export default User;
+export default UserPage;
